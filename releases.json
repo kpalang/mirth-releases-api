@@ -178,5 +178,95 @@
         "md5": "56aaf39e5c04ca9c612e79801b0e6009",
         "publishedAt": "2022-09-08T17:23:43Z",
         "tagName": "4.1.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.0.1.b293/mirthconnect-4.0.1.b293-windows-x32.exe",
+        "sha256": "4837f63692d6fcd7a1ffc4b04325dbdbfe9eceec7da8903153ec9a8eaeca873c",
+        "md5": "c37d04ddae3af6248eca5cc4a105ed63",
+        "publishedAt": "2022-04-26T16:28:38Z",
+        "tagName": "4.0.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.0.1.b293/mirthconnect-4.0.1.b293-windows-x32.zip",
+        "sha256": "e119ffeb9a91ba83977cf2dd6ccfb3fd3e015518af392b0dc75ef7baeb56bf6e",
+        "md5": "8b404988701e2d6dd6fccf649a621e68",
+        "publishedAt": "2022-04-26T16:28:38Z",
+        "tagName": "4.0.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.0.1.b293/mirthconnect-4.0.1.b293-windows-x64.exe",
+        "sha256": "67e811e31cc389a8b273a489508abafed26a614f3c6f4e201ed625428a96e47a",
+        "md5": "08ef3d388c481bcfd2e03b6efb019a25",
+        "publishedAt": "2022-04-26T16:28:38Z",
+        "tagName": "4.0.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.0.1.b293/mirthconnect-4.0.1.b293-windows-x64.zip",
+        "sha256": "cc12c4fe02a4a07d2321c7a1fb460c0b39b003d7a13a174f090fb28cc1859b8f",
+        "md5": "018b300c25f3f658631e1c3721c8752f",
+        "publishedAt": "2022-04-26T16:28:38Z",
+        "tagName": "4.0.1"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "rpm",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.0.1.b293/mirthconnect-4.0.1.b293-linux.rpm",
+        "sha256": "dfa26e3000a96a14b9775b85c5de84ccf6640deaa49f17167c2e9b24bd43c075",
+        "md5": "97ff244a2c9f73d6da24d797e6afbe17",
+        "publishedAt": "2022-04-26T16:28:38Z",
+        "tagName": "4.0.1"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.0.1.b293/mirthconnect-4.0.1.b293-unix.tar.gz",
+        "sha256": "fd5223a15cdcaaf0d8071c1bdd9a0409fecd93fcec25e18c1daab1e9fe1f991d",
+        "md5": "8334c068adb05017514ce67ae2529a0d",
+        "publishedAt": "2022-04-26T16:28:38Z",
+        "tagName": "4.0.1"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.0.1.b293/mirthconnect-4.0.1.b293-unix.sh",
+        "sha256": "c5f36616a8a24e079df0ff46fe84d4a187eaca2b371483ab16683dd9d5a1137f",
+        "md5": "6ad9714a3074af28682d78d23e1e7355",
+        "publishedAt": "2022-04-26T16:28:38Z",
+        "tagName": "4.0.1"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.0.1.b293/mirthconnect-4.0.1.b293-macos.dmg",
+        "sha256": "d00ebf8047ad95cd384168049fe70cf5db2bf791a481f662ef08f12440315b40",
+        "md5": "0d4469734287737d8087bd7eda31c473",
+        "publishedAt": "2022-04-26T16:28:38Z",
+        "tagName": "4.0.1"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.0.1.b293/mirthconnect-4.0.1.b293-unix.tar.gz",
+        "sha256": "fd5223a15cdcaaf0d8071c1bdd9a0409fecd93fcec25e18c1daab1e9fe1f991d",
+        "md5": "8334c068adb05017514ce67ae2529a0d",
+        "publishedAt": "2022-04-26T16:28:38Z",
+        "tagName": "4.0.1"
     }
 ]
