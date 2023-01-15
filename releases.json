@@ -1,0 +1,92 @@
+[
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.2.0.b2825/mirthconnect-4.2.0.b2825-windows-x32.exe",
+        "sha256": "6769801a9b76045a25ca927f67e7f5897f18ba2c12e66a7c2ffae63d430f8bb6",
+        "md5": "0687cddd5815ffeb973e0a7ef8e716e7",
+        "publishedAt": "2022-12-07T18:43:04Z",
+        "tagName": "4.2.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.2.0.b2825/mirthconnect-4.2.0.b2825-windows-x32.zip",
+        "sha256": "3d4bf9a15cd6d7a694f891d00183bbcf9ac4b903571ce55d050367ca3a471f29",
+        "md5": "d4095f48e4a712fe19d511328564e981",
+        "publishedAt": "2022-12-07T18:43:04Z",
+        "tagName": "4.2.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.2.0.b2825/mirthconnect-4.2.0.b2825-windows-x64.exe",
+        "sha256": "f852c93d76bbfffda5d4a0640a460afcd29f2b179dea85c0a85f26ea2ab9890b",
+        "md5": "1c342bac430d1244f9107ec408872823",
+        "publishedAt": "2022-12-07T18:43:04Z",
+        "tagName": "4.2.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.2.0.b2825/mirthconnect-4.2.0.b2825-windows-x64.zip",
+        "sha256": "460356e908921e1d7eb0482bbed0a077b419d522bed2eb81bc30935e46eefc0a",
+        "md5": "e3a356e2ac008bbf76fc43e7692ca304",
+        "publishedAt": "2022-12-07T18:43:04Z",
+        "tagName": "4.2.0"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "rpm",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.2.0.b2825/mirthconnect-4.2.0.b2825-linux.rpm",
+        "sha256": "c9d0cac86839cb19f42583401742c446666d23e208c0fd21b26308f6ccdac671",
+        "md5": "04219204cf8775cc7800fae121476c75",
+        "publishedAt": "2022-12-07T18:43:04Z",
+        "tagName": "4.2.0"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.2.0.b2825/mirthconnect-4.2.0.b2825-unix.tar.gz",
+        "sha256": "9ab928069ec263edf76b168739e5091cbd864971c2af1be05a845d19660fd7a0",
+        "md5": "4f3c0e5eaeed724d4e740de94d8636ee",
+        "publishedAt": "2022-12-07T18:43:04Z",
+        "tagName": "4.2.0"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.2.0.b2825/mirthconnect-4.2.0.b2825-unix.sh",
+        "sha256": "89c6119c39a685b3d9af82adf89797182059b2396ac622670419b1910af1a53f",
+        "md5": "00adf109af23615a57b8255ea82c3065",
+        "publishedAt": "2022-12-07T18:43:04Z",
+        "tagName": "4.2.0"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.2.0.b2825/mirthconnect-4.2.0.b2825-macos.dmg",
+        "sha256": "ba8a5752d6ae8ea27f79c1fe19442383cd5a7b339b3b750b87b721dc57ddc481",
+        "md5": "ca53b0e9e48a32048b2f3051503875ee",
+        "publishedAt": "2022-12-07T18:43:04Z",
+        "tagName": "4.2.0"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.2.0.b2825/mirthconnect-4.2.0.b2825-unix.tar.gz",
+        "sha256": "9ab928069ec263edf76b168739e5091cbd864971c2af1be05a845d19660fd7a0",
+        "md5": "4f3c0e5eaeed724d4e740de94d8636ee",
+        "publishedAt": "2022-12-07T18:43:04Z",
+        "tagName": "4.2.0"
+    }
+]
