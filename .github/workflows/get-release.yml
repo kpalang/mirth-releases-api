@@ -1,0 +1,32 @@
+name: Query Mirth releases data
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # every day at midnight
+  workflow_dispatch:
+    inputs:
+      version:
+        type: string
+        description: Mirth connect version
+        default: 'latest'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create release file
+        run: python main.py ${{ inputs.version }}
+
+      - name: Print contents of releases.json
+        run: cat releases.json
+
+      - name: Commit new file
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          git add releases.json releases.min.json
+          git commit -m "New releases run"
+          git push
