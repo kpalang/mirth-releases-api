@@ -102,8 +102,9 @@ def main(url_tag_suffix):
 		print(f'mirth_version={tag_name}', file=github_output)
 		print(f'should_commit={should_commit}', file=github_output)
 
+
 if __name__ == '__main__':
-	if len(sys.argv) != 2:
+	if len(sys.argv) != 2 or sys.argv[1] == 'latest':
 		url_suffix = "latest"
 	else:
 		url_suffix = f"tags/{sys.argv[1]}"
