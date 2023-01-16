@@ -25,7 +25,7 @@ jobs:
         run: cat releases.json
 
       - name: Commit new file
-        if: ${{ success() && steps.process-release.outputs.should_commit == true }}
+        if: success() && steps.process-release.outputs.should_commit
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
