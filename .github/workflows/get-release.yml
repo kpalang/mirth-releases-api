@@ -21,6 +21,11 @@ jobs:
         id: process-release
         run: python main.py ${{ inputs.version }}
 
+      - name: Print outputs
+        run: |
+          echo "Mirth version: ${{steps.process-release.outputs.mirth_version}}"
+          echo "Should commit?: ${{steps.process-release.outputs.should_commit}}"
+
       - name: Print contents of releases.json
         run: cat releases.json
 
