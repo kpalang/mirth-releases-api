@@ -2,7 +2,7 @@ import requests as req
 import re
 import json
 import sys
-from os import path
+from os import path, environ
 
 MAIN_TABLE_REGEX = r'(?:### Connect)((?:.|\n)+)(?:### Command)'
 DOWNLOAD_REGEX = r'(?:\[)([a-zA-Z.]*)(?:\]\()(.+)(?:\))'
@@ -93,6 +93,10 @@ def main(url_tag_suffix):
 	# Write JSON minified file
 	with open(RELEASES_FILENAME_MIN, "w") as fp:
 		json.dump(releases_list, fp, indent=None, separators=(',', ':'))
+
+	# Write processed version tag to GH Actions output
+	with open(environ['GITHUB_OUTPUT'], 'a') as github_output:
+		print(f'mirth_version={tag_name}', file=github_output)
 
 
 if __name__ == '__main__':
