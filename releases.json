@@ -808,5 +808,95 @@
         "md5": "57bd38692565bd74865bb804153e8f95",
         "publishedAt": "2020-11-13T18:51:00Z",
         "tagName": "3.10.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.9.1.b263/mirthconnect-3.9.1.b263-windows.exe",
+        "sha256": "632e5ecab89dcacebf777b38ec2fd63f280550539082572b6de4ce30f304e360",
+        "md5": "296784ece4ead21c872bcc44c162caf7",
+        "publishedAt": "2020-08-18T17:57:28Z",
+        "tagName": "3.9.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.9.1.b263/mirthconnect-3.9.1.b263-windows.zip",
+        "sha256": "117d91239eb82cc56f2183b019542c177f6d44994b2baa8e736d0aeeefeb119b",
+        "md5": "e5aaf00c5b3ecf72f4d479ab8e0ec214",
+        "publishedAt": "2020-08-18T17:57:28Z",
+        "tagName": "3.9.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.9.1.b263/mirthconnect-3.9.1.b263-windows-x64.exe",
+        "sha256": "a90fd803a88c4dae266aac0ddfa48d1da538cf7c622a5fd459ba217549a5a641",
+        "md5": "c45b892362ac2e56bd34ca671b413214",
+        "publishedAt": "2020-08-18T17:57:28Z",
+        "tagName": "3.9.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.9.1.b263/mirthconnect-3.9.1.b263-windows-x64.zip",
+        "sha256": "fb1eb092c799d4330991066be60a0446f91f59ff084e6b54def27f6a6643674c",
+        "md5": "ba14ed561897a90251e723565af4104d",
+        "publishedAt": "2020-08-18T17:57:28Z",
+        "tagName": "3.9.1"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "rpm",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.9.1.b263/mirthconnect-3.9.1.b263-linux.rpm",
+        "sha256": "b2f84d43a0e8ff59b676d69947af7afb5c05fefd59c98df6330ee516550abf3b",
+        "md5": "1e06f77e159e97eb31eed28f6b5b0c7f",
+        "publishedAt": "2020-08-18T17:57:28Z",
+        "tagName": "3.9.1"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.9.1.b263/mirthconnect-3.9.1.b263-unix.tar.gz",
+        "sha256": "278992e6a49c91f628e9c9e7f226e40ccafa6e1f5649353a418e029eb6e65846",
+        "md5": "8a98c63fc4ec97b60a9a40b7fdeeac14",
+        "publishedAt": "2020-08-18T17:57:28Z",
+        "tagName": "3.9.1"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.9.1.b263/mirthconnect-3.9.1.b263-unix.sh",
+        "sha256": "9f77d941c833397a6c9f7949d03840c20dc62f5b02662790b6556bbc22f5ec40",
+        "md5": "cd6f6d6999678c6226fdf34c58acf3c1",
+        "publishedAt": "2020-08-18T17:57:28Z",
+        "tagName": "3.9.1"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.9.1.b263/mirthconnect-3.9.1.b263-macos.dmg",
+        "sha256": "691ccdee2693ed8dc5f097913691205bf3045b08af251faf9cac0ee8e4cef815",
+        "md5": "b4f9095b70ad3ec7d2762fe11652d728",
+        "publishedAt": "2020-08-18T17:57:28Z",
+        "tagName": "3.9.1"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.9.1.b263/mirthconnect-3.9.1.b263-unix.tar.gz",
+        "sha256": "278992e6a49c91f628e9c9e7f226e40ccafa6e1f5649353a418e029eb6e65846",
+        "md5": "8a98c63fc4ec97b60a9a40b7fdeeac14",
+        "publishedAt": "2020-08-18T17:57:28Z",
+        "tagName": "3.9.1"
     }
 ]
