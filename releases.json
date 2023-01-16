@@ -718,5 +718,95 @@
         "md5": "e3d8566938f1b059ba88e929862962f2",
         "publishedAt": "2021-01-14T18:54:27Z",
         "tagName": "3.10.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.10.0.b2566/mirthconnect-3.10.0.b2566-windows.exe",
+        "sha256": "86f8f333b3faf745f4ae906483f17ede2d286ac4ad232d396e6fb49b42bcceb3",
+        "md5": "d846642ed0904e30a52cad187e09bc17",
+        "publishedAt": "2020-11-13T18:51:00Z",
+        "tagName": "3.10.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.10.0.b2566/mirthconnect-3.10.0.b2566-windows.zip",
+        "sha256": "feb3d6285ce75c8daa3fc0d6bf68bb2b28d20500416ff1f3b86cb24aca49d469",
+        "md5": "5a0767f763ce9dcbd816084e52a749a2",
+        "publishedAt": "2020-11-13T18:51:00Z",
+        "tagName": "3.10.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.10.0.b2566/mirthconnect-3.10.0.b2566-windows-x64.exe",
+        "sha256": "290fc631bb42d777796522425f070c86f71673db1c9571bbb344ff6090702cc5",
+        "md5": "94019ee8496da751ec88da1dfbd917fd",
+        "publishedAt": "2020-11-13T18:51:00Z",
+        "tagName": "3.10.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.10.0.b2566/mirthconnect-3.10.0.b2566-windows-x64.zip",
+        "sha256": "18c417586806935be385cb39c6ae98bf517afc17a21d2684db60d4d1a1357368",
+        "md5": "62f57c8644a4337f2e28ac4a048412ad",
+        "publishedAt": "2020-11-13T18:51:00Z",
+        "tagName": "3.10.0"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "rpm",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.10.0.b2566/mirthconnect-3.10.0.b2566-linux.rpm",
+        "sha256": "662f2893e43bcfc21fe04c339391b6bb1b8fbb306f4a60e20fb533f8b6e6125c",
+        "md5": "54a72379246c22f056e553c8681762a5",
+        "publishedAt": "2020-11-13T18:51:00Z",
+        "tagName": "3.10.0"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.10.0.b2566/mirthconnect-3.10.0.b2566-unix.tar.gz",
+        "sha256": "38339485703d631005790f2eee9e34b9fa12301605c1577cd46befce1f58f44d",
+        "md5": "57bd38692565bd74865bb804153e8f95",
+        "publishedAt": "2020-11-13T18:51:00Z",
+        "tagName": "3.10.0"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.10.0.b2566/mirthconnect-3.10.0.b2566-unix.sh",
+        "sha256": "98eaa84b48b6917cd3976dd26f48cca8914119830fe9e4681d731fb33468ae9f",
+        "md5": "96a40772cafaa1b26a2623b11be139e1",
+        "publishedAt": "2020-11-13T18:51:00Z",
+        "tagName": "3.10.0"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.10.0.b2566/mirthconnect-3.10.0.b2566-macos.dmg",
+        "sha256": "03d46ec90df8cc4e72dfb277640f40bf9f3928cfb735e95a4fbf3fc726c21c4b",
+        "md5": "a63c1824d334adecb0b1467e40b264a0",
+        "publishedAt": "2020-11-13T18:51:00Z",
+        "tagName": "3.10.0"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.10.0.b2566/mirthconnect-3.10.0.b2566-unix.tar.gz",
+        "sha256": "38339485703d631005790f2eee9e34b9fa12301605c1577cd46befce1f58f44d",
+        "md5": "57bd38692565bd74865bb804153e8f95",
+        "publishedAt": "2020-11-13T18:51:00Z",
+        "tagName": "3.10.0"
     }
 ]
