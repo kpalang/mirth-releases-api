@@ -1438,5 +1438,95 @@
         "md5": "71375cac7fd6c4b6f0acd18e1b60fdd6",
         "publishedAt": "2018-12-19T22:53:14Z",
         "tagName": "3.6.2"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.6.1.b220/mirthconnect-3.6.1.b220-windows.exe",
+        "sha256": "68ffb29b87306f72d58eec4bc606ae56ec0d6ffd56879abcbdf6b94897bb40f4",
+        "md5": "518cce78a1faa063ae781937f9dc6970",
+        "publishedAt": "2018-07-23T17:47:08Z",
+        "tagName": "3.6.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.6.1.b220/mirthconnect-3.6.1.b220-windows.zip",
+        "sha256": "09d0a554c60609ce8ab6c37006eb33fa1cc0e03e9eac1e5a1efecd12ac065ea4",
+        "md5": "3970375ffd8c0eca32a3ea726160cd58",
+        "publishedAt": "2018-07-23T17:47:08Z",
+        "tagName": "3.6.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.6.1.b220/mirthconnect-3.6.1.b220-windows-x64.exe",
+        "sha256": "26c1a0b645d0c5b5837fa0a8a9a6d27e87f06970baed65fee9b587954393b1ae",
+        "md5": "cb9b4ee862f1e17e1f44efe0fd2c5a79",
+        "publishedAt": "2018-07-23T17:47:08Z",
+        "tagName": "3.6.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.6.1.b220/mirthconnect-3.6.1.b220-windows-x64.zip",
+        "sha256": "0d1fb7a6aa3a794df77d9a9adc18e76ce466440c08e77e99266c8e60488b33df",
+        "md5": "1162deb08b40caba12895a43e1ffb55b",
+        "publishedAt": "2018-07-23T17:47:08Z",
+        "tagName": "3.6.1"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "rpm",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.6.1.b220/mirthconnect-3.6.1.b220-linux.rpm",
+        "sha256": "70fb7050d107faddf39e5747ef341746216868bf6b81138a9f0ba4cf11a19c05",
+        "md5": "f6f1197391c64233edce5f1a34a987fa",
+        "publishedAt": "2018-07-23T17:47:08Z",
+        "tagName": "3.6.1"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.6.1.b220/mirthconnect-3.6.1.b220-unix.tar.gz",
+        "sha256": "bc80c94745c9c5a83426b34d2efd2c518120f1c29f89eeb0df2a6db240332df9",
+        "md5": "df549de2a4711759a0103337ccd7ee59",
+        "publishedAt": "2018-07-23T17:47:08Z",
+        "tagName": "3.6.1"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.6.1.b220/mirthconnect-3.6.1.b220-unix.sh",
+        "sha256": "5507d517de161336a1eda8ad26793e6ade4b606e1ae93a0c468f91e44d95319c",
+        "md5": "93f45ab96eab28150ab7c7886b3f382b",
+        "publishedAt": "2018-07-23T17:47:08Z",
+        "tagName": "3.6.1"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.6.1.b220/mirthconnect-3.6.1.b220-macos.dmg",
+        "sha256": "b5bc07e7f5d358bac203bb8a46c23fac6a13eed239bd9679360843dda53293db",
+        "md5": "aeed61348c018357a141e63878d1b234",
+        "publishedAt": "2018-07-23T17:47:08Z",
+        "tagName": "3.6.1"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.6.1.b220/mirthconnect-3.6.1.b220-unix.tar.gz",
+        "sha256": "bc80c94745c9c5a83426b34d2efd2c518120f1c29f89eeb0df2a6db240332df9",
+        "md5": "df549de2a4711759a0103337ccd7ee59",
+        "publishedAt": "2018-07-23T17:47:08Z",
+        "tagName": "3.6.1"
     }
 ]
