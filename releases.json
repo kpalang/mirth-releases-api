@@ -538,5 +538,95 @@
         "md5": "023486d6e798c868b23f3cc7f031e7ed",
         "publishedAt": "2021-10-08T20:13:04Z",
         "tagName": "3.12.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.11.0.b2609/mirthconnect-3.11.0.b2609-windows-x32.exe",
+        "sha256": "e657d3637768d89f443a52c3f083f8a6949d192da20bf8400824592338d750d9",
+        "md5": "de404d3d01fa5330da9cbc8792958188",
+        "publishedAt": "2021-04-26T18:09:24Z",
+        "tagName": "3.11.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.11.0.b2609/mirthconnect-3.11.0.b2609-windows-x32.zip",
+        "sha256": "887706df8e94b6f0dfbdb761c207d2a3a8bffe23099aadf532e719a55bf0059b",
+        "md5": "c65a54d2e9d10cbbb54fb1c160809a27",
+        "publishedAt": "2021-04-26T18:09:24Z",
+        "tagName": "3.11.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.11.0.b2609/mirthconnect-3.11.0.b2609-windows-x64.exe",
+        "sha256": "3cb31cbde055515931122302f432de97bf374dbd05958e7e9665602c5bec9d7d",
+        "md5": "ba8df8cef2fd680c230e4840a3099d76",
+        "publishedAt": "2021-04-26T18:09:24Z",
+        "tagName": "3.11.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.11.0.b2609/mirthconnect-3.11.0.b2609-windows-x64.zip",
+        "sha256": "7a6b84130b12eeb5c5da6ee29b021e8be4787eb05fa8d7486004ef71f2c84061",
+        "md5": "d7741ed136f48d665314309f5c632466",
+        "publishedAt": "2021-04-26T18:09:24Z",
+        "tagName": "3.11.0"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "rpm",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.11.0.b2609/mirthconnect-3.11.0.b2609-linux.rpm",
+        "sha256": "55b518f7f40c2acdd0c0ed99966462ab68e598930dd9a2d1e5f3e3b30d903109",
+        "md5": "5bfa02c8b58c97aa36447755b8bef2d4",
+        "publishedAt": "2021-04-26T18:09:24Z",
+        "tagName": "3.11.0"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.11.0.b2609/mirthconnect-3.11.0.b2609-unix.tar.gz",
+        "sha256": "4df341312de34fb9a79083c5c1f8c2214cea6efd5b9d34ea0551dee4a2249286",
+        "md5": "3d9c30c328f08eabbd9fcda35b5c4281",
+        "publishedAt": "2021-04-26T18:09:24Z",
+        "tagName": "3.11.0"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.11.0.b2609/mirthconnect-3.11.0.b2609-unix.sh",
+        "sha256": "2f0f572789f9d33678c283d42e89426704bcadec7ba8de18306b4e5b5a19c921",
+        "md5": "5a30fd51572f0b4c98ec35de56eb00a3",
+        "publishedAt": "2021-04-26T18:09:24Z",
+        "tagName": "3.11.0"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.11.0.b2609/mirthconnect-3.11.0.b2609-macos.dmg",
+        "sha256": "3cd28b1ed6be21d4504f09ec5a2b1761953b1799e1df80c99d2a85d21c4e3be5",
+        "md5": "6b615a15469d33bb7e496d7c7d9a0a54",
+        "publishedAt": "2021-04-26T18:09:24Z",
+        "tagName": "3.11.0"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.11.0.b2609/mirthconnect-3.11.0.b2609-unix.tar.gz",
+        "sha256": "4df341312de34fb9a79083c5c1f8c2214cea6efd5b9d34ea0551dee4a2249286",
+        "md5": "3d9c30c328f08eabbd9fcda35b5c4281",
+        "publishedAt": "2021-04-26T18:09:24Z",
+        "tagName": "3.11.0"
     }
 ]
