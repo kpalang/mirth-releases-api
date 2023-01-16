@@ -1258,5 +1258,95 @@
         "md5": "07b4308f39f7b3de1c0e925b1bbc3be9",
         "publishedAt": "2019-03-28T16:36:16Z",
         "tagName": "3.7.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.7.0.b2399/mirthconnect-3.7.0.b2399-windows.exe",
+        "sha256": "c7acbb809a1fd86af137c0a8b3c4c17f756f5ec15b72425551420ef0377847fa",
+        "md5": "fbae1c18cca9697786f32396821c088e",
+        "publishedAt": "2018-12-19T22:59:30Z",
+        "tagName": "3.7.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.7.0.b2399/mirthconnect-3.7.0.b2399-windows.zip",
+        "sha256": "0300b30cb96d0cbad43f370c6058ecdc97d4d7be1e4cca8ef7dc5c33be35e3ca",
+        "md5": "30bf6d39749ffbc3562ec7c74afc0ae0",
+        "publishedAt": "2018-12-19T22:59:30Z",
+        "tagName": "3.7.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.7.0.b2399/mirthconnect-3.7.0.b2399-windows-x64.exe",
+        "sha256": "cacc662ebae215d11d4d0018c75f7734ba5d71f028a9a45e0c33eec69c5e24d6",
+        "md5": "0ecebbbfee4fc384e0b7d5519e15b6eb",
+        "publishedAt": "2018-12-19T22:59:30Z",
+        "tagName": "3.7.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.7.0.b2399/mirthconnect-3.7.0.b2399-windows-x64.zip",
+        "sha256": "47361fc0a54d822c409b77381eb44d4916d188fbe63576ef8b78b5bb8f47fa30",
+        "md5": "fd63970e87b6ba182f02ec6612a5e6c8",
+        "publishedAt": "2018-12-19T22:59:30Z",
+        "tagName": "3.7.0"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "rpm",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.7.0.b2399/mirthconnect-3.7.0.b2399-linux.rpm",
+        "sha256": "7796e6aee2b070af18d57ffc3ccf124aa50d703ba581bcf08738a2667ee0cce8",
+        "md5": "3125727906c24cff81c65a976480b516",
+        "publishedAt": "2018-12-19T22:59:30Z",
+        "tagName": "3.7.0"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.7.0.b2399/mirthconnect-3.7.0.b2399-unix.tar.gz",
+        "sha256": "360de1d474171f648f55f9b8bb8bff5d9799ebd02c82cb473aabd4e1152d844d",
+        "md5": "ba81af55261517c6a4e9573b8bd7edfe",
+        "publishedAt": "2018-12-19T22:59:30Z",
+        "tagName": "3.7.0"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.7.0.b2399/mirthconnect-3.7.0.b2399-unix.sh",
+        "sha256": "94972e22e1b45e02b5ec9ce363d0686f6da5dae1b7b05e0c48fab7828d3448ee",
+        "md5": "819bba4a15902f32b0eb8887b7ba95d9",
+        "publishedAt": "2018-12-19T22:59:30Z",
+        "tagName": "3.7.0"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.7.0.b2399/mirthconnect-3.7.0.b2399-macos.dmg",
+        "sha256": "414578d962266b689b04022dbe97a5236a5fd08867bf1384d295cc6094a469cc",
+        "md5": "3ed2ba5e28524e88d3b3521f3eb9d1f6",
+        "publishedAt": "2018-12-19T22:59:30Z",
+        "tagName": "3.7.0"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/3.7.0.b2399/mirthconnect-3.7.0.b2399-unix.tar.gz",
+        "sha256": "360de1d474171f648f55f9b8bb8bff5d9799ebd02c82cb473aabd4e1152d844d",
+        "md5": "ba81af55261517c6a4e9573b8bd7edfe",
+        "publishedAt": "2018-12-19T22:59:30Z",
+        "tagName": "3.7.0"
     }
 ]
