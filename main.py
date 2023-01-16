@@ -97,13 +97,8 @@ def main(url_tag_suffix):
 
 if __name__ == '__main__':
 	if len(sys.argv) != 2:
-		raise Exception(f"Invalid number of inputs given!\nExpected: 2, given: {len(sys.argv)}")
-
-	input_tag = sys.argv[1]
-
-	if input_tag != "latest":
-		url_suffix = f"tags/{input_tag}"
-	else:
 		url_suffix = "latest"
+	else:
+		url_suffix = f"tags/{sys.argv[1]}"
 
 	main(url_suffix)
