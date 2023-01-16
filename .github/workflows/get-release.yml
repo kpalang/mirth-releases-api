@@ -18,15 +18,17 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Create release file
+        id: process-release
         run: python main.py ${{ inputs.version }}
 
       - name: Print contents of releases.json
         run: cat releases.json
 
       - name: Commit new file
+        if: ${{ success() && steps.process-release.outputs.should_commit == true }}
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add releases.json releases.min.json
-          git commit -m "New releases run"
+          git commit -m "Added release ${{steps.process-release.outputs.mirth_version}}"
           git push

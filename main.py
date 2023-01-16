@@ -77,6 +77,8 @@ def main(url_tag_suffix):
 	with open(RELEASES_FILENAME, "r") as fp:
 		releases_list = json.load(fp)
 
+	should_commit = False
+
 	# Populate final list while filtering out elements that already exists in said list
 	for release_entry in current_request_release_entries:
 		if not nested_dict_value_exists(os=release_entry['os'],
@@ -85,6 +87,7 @@ def main(url_tag_suffix):
 										dict_to_test=releases_list,
 										mirth_version=tag_name):
 			releases_list.append(release_entry)
+			should_commit = True
 
 	# Write JSON file
 	with open(RELEASES_FILENAME, "w") as fp:
@@ -97,7 +100,7 @@ def main(url_tag_suffix):
 	# Write processed version tag to GH Actions output
 	with open(environ['GITHUB_OUTPUT'], 'a') as github_output:
 		print(f'mirth_version={tag_name}', file=github_output)
-
+		print(f'should_commit={should_commit}', file=github_output)
 
 if __name__ == '__main__':
 	if len(sys.argv) != 2:
