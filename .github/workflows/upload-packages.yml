@@ -15,7 +15,7 @@ on:
         required: true
 
 env:
-  REPOSITORY_URL: https://maven.pkg.github.com/kpalang/repo-test
+  REPOSITORY_URL: https://maven.pkg.github.com/kpalang/mirth-releases-api
 
 jobs:
   prepare:
