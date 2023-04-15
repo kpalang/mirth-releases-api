@@ -1,0 +1,198 @@
+[
+  {
+    "groupId": "com.mirth.connect",
+    "path": "server-lib/mirth-server.jar"
+  },
+  {
+    "groupId": "com.mirth.connect",
+    "path": "server-lib/mirth-dbconf.jar"
+  },
+  {
+    "groupId": "com.mirth.connect",
+    "path": "server-lib/donkey/donkey-server.jar"
+  },
+
+  {
+    "groupId": "com.mirth.connect",
+    "path": "client-lib/mirth-client.jar"
+  },
+  {
+    "groupId": "com.mirth.connect",
+    "path": "client-lib/mirth-client-core.jar"
+  },
+  {
+    "groupId": "com.mirth.connect",
+    "path": "client-lib/mirth-crypto.jar"
+  },
+  {
+    "groupId": "com.mirth.connect",
+    "path": "client-lib/donkey-model.jar"
+  },
+  {
+    "groupId": "com.mirth.connect",
+    "path": "client-lib/mirth-vocab.jar"
+  },
+
+  {
+    "groupId": "com.mirth.connect",
+    "path": "cli-lib/mirth-cli.jar"
+  },
+
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/dashboardstatus/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/datapruner/"
+  },
+
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/destinationsetfilter/"
+  },
+  {
+    "groupId": "com.mirth.connect.connectors",
+    "path": "extensions/dicom/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/dicomviewer/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/directoryresource/"
+  },
+  {
+    "groupId": "com.mirth.connect.connectors",
+    "path": "extensions/doc/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/extensionmanager/"
+  },
+  {
+    "groupId": "com.mirth.connect.connectors",
+    "path": "extensions/file/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/globalmapviewer/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/http/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/httpauth/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/imageviewer/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/javascriptrule/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/javascriptstep/"
+  },
+  {
+    "groupId": "com.mirth.connect.connectors",
+    "path": "extensions/jdbc/"
+  },
+  {
+    "groupId": "com.mirth.connect.connectors",
+    "path": "extensions/jms/"
+  },
+  {
+    "groupId": "com.mirth.connect.connectors",
+    "path": "extensions/js/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/mapper/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/messagebuilder/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/mllpmode/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/pdfviewer/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/rulebuilder/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/scriptfilerule/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/scriptfilestep/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/serverlog/"
+  },
+  {
+    "groupId": "com.mirth.connect.connectors",
+    "path": "extensions/smtp/"
+  },
+  {
+    "groupId": "com.mirth.connect.connectors",
+    "path": "extensions/tcp/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins",
+    "path": "extensions/textviewer/"
+  },
+  {
+    "groupId": "com.mirth.connect.connectors",
+    "path": "extensions/vm/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins.datatypes",
+    "path": "extensions/datatype-delimited/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins.datatypes",
+    "path": "extensions/datatype-dicom/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins.datatypes",
+    "path": "extensions/datatype-edi/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins.datatypes",
+    "path": "extensions/datatype-hl7v2/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins.datatypes",
+    "path": "extensions/datatype-hl7v3/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins.datatypes",
+    "path": "extensions/datatype-json/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins.datatypes",
+    "path": "extensions/datatype-ncpdp/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins.datatypes",
+    "path": "extensions/datatype-raw/"
+  },
+  {
+    "groupId": "com.mirth.connect.plugins.datatypes",
+    "path": "extensions/datatype-xml/"
+  }
+]

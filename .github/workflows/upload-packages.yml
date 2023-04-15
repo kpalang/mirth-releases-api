@@ -1,0 +1,87 @@
+name: Upload jars to GitHub maven repository
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        type: string
+        description: Mirth connect version
+        required: true
+  workflow_call:
+    inputs:
+      version:
+        type: string
+        description: Mirth connect version
+        required: true
+
+env:
+  REPOSITORY_URL: https://maven.pkg.github.com/kpalang/repo-test
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      mirth_download_url: ${{ steps.get-download-url.outputs.download_url }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Get download url
+        id: get-download-url
+        run: |
+          url=$(jq -r '.[] | select(.os=="linux" and .arch=="x64" and .tagName=="${{ inputs.version }}" and .downloadType=="tar.gz") | .downloadUrl' releases.min.json)
+          if [ -z "$url" ]; then exit 1; fi
+          echo "download_url=$url" >> "$GITHUB_OUTPUT"
+
+      - name: Downloading Mirth
+        run: |
+          curl -o mirthconnect.tar.gz "${{steps.get-download-url.outputs.download_url}}"
+          tar xf mirthconnect.tar.gz
+          mv Mirth\ Connect mirthconnect
+
+      - name: Prepare file list
+        run: |
+          util/generateFileList.sh
+          split --lines=26 artifact-list-complete.txt artifact-list-split.txt. -da 1
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: artifact-list
+          path: |
+            artifact-list-complete.txt
+            artifact-list-split.txt.*
+
+  upload:
+    runs-on: ubuntu-latest
+    if: ${{ success() }}
+    needs: prepare
+    strategy:
+      matrix:
+        uploader_id: [ 0, 1, 2, 3, 4 ]
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          server-username: ${{ secrets.USERNAME }}
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: artifact-list
+
+      - name: Downloading Mirth
+        run: |
+          curl -o mirthconnect.tar.gz ${{needs.prepare.outputs.mirth_download_url}}
+          tar xf mirthconnect.tar.gz
+          mv Mirth\ Connect mirthconnect
+
+      - name: Upload jars
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x util/*.sh
+          util/processFileList.sh ${{ matrix.uploader_id }} $REPOSITORY_URL ${{ inputs.version }}
