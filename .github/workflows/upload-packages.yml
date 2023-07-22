@@ -62,8 +62,8 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
           server-id: ${{ secrets.SERVER_ID }}
-          server-username: ${{ secrets.SERVER_USERNAME }}
-          server-password: ${{ secrets.SERVER_PASSWORD }}
+          server-username: REPO_USERNAME 
+          server-password: REPO_PASSWORD
 
       - uses: actions/download-artifact@v3
         with:
@@ -77,7 +77,8 @@ jobs:
 
       - name: Upload jars
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_USERNAME: ${{ secrets.SERVER_USERNAME }}
+          REPO_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
         run: |
           chmod +x util/*.sh
           util/processFileList.sh ${{ matrix.uploader_id }} ${{ secrets.REPOSITORY_URL }} ${{ inputs.version }} ${{ secrets.SERVER_ID }}

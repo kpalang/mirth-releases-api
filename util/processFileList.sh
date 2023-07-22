@@ -14,7 +14,7 @@ while IFS="" read -r line || [ -n "$line" ]; do
   mvn deploy:deploy-file \
     -Dfile="$path" \
     -Dpackaging=jar \
-    -DrepositoryId=$server_id \
+    -DrepositoryId="$server_id" \
     -DartifactId="$artifact_id" \
     -DgroupId="$group_id" \
     -Dversion="$version" \
