@@ -1,4 +1,4 @@
-name: Upload jars to GitHub maven repository
+name: Upload jars to maven repository
 
 on:
   workflow_dispatch:
@@ -54,9 +54,6 @@ jobs:
     strategy:
       matrix:
         uploader_id: [ 0, 1, 2, 3, 4 ]
-    permissions:
-      contents: read
-      packages: write
     steps:
       - uses: actions/checkout@v3
 
