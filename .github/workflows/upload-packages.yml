@@ -14,9 +14,6 @@ on:
         description: Mirth connect version
         required: true
 
-env:
-  REPOSITORY_URL: https://maven.pkg.github.com/kpalang/mirth-releases-api
-
 jobs:
   prepare:
     runs-on: ubuntu-latest
@@ -67,7 +64,9 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-          server-username: ${{ secrets.USERNAME }}
+          server-id: ${{ secrets.SERVER_ID }}
+          server-username: ${{ secrets.SERVER_USERNAME }}
+          server-password: ${{ secrets.SERVER_PASSWORD }}
 
       - uses: actions/download-artifact@v3
         with:
@@ -84,4 +83,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           chmod +x util/*.sh
-          util/processFileList.sh ${{ matrix.uploader_id }} $REPOSITORY_URL ${{ inputs.version }}
+          util/processFileList.sh ${{ matrix.uploader_id }} ${{ secrets.REPOSITORY_URL }} ${{ inputs.version }} ${{ secrets.SERVER_ID }}
