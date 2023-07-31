@@ -37,3 +37,9 @@ jobs:
           git add releases.json releases.min.json
           git commit -m "Added release ${{steps.process-release.outputs.mirth_version}}"
           git push
+
+      - name: Upload artifacts to Repsy
+        if: success() && steps.process-release.outputs.should_commit == 'true'
+        uses: ./.github/workflows/upload-packages.yml
+        with:
+          version: ${{steps.process-release.outputs.mirth_version}}
