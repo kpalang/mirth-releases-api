@@ -20,7 +20,7 @@ jobs:
     outputs:
       mirth_download_url: ${{ steps.get-download-url.outputs.download_url }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Get download url
         id: get-download-url
@@ -40,7 +40,7 @@ jobs:
           util/generateFileList.sh
           split --lines=26 artifact-list-complete.txt artifact-list-split.txt. -da 1
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: artifact-list
           path: |
@@ -57,7 +57,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-java@v3
+      - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
@@ -65,7 +65,7 @@ jobs:
           server-username: REPO_USERNAME 
           server-password: REPO_PASSWORD
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: artifact-list
 
