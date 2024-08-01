@@ -2068,5 +2068,95 @@
         "md5": "72b2f7a01e81192f6b00fd41b5fa6f3b",
         "publishedAt": "2024-01-31T17:07:21Z",
         "tagName": "4.5.0"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.5.1.b332/mirthconnect-4.5.1.b332-windows-x32.exe",
+        "sha256": "b07683ed590d831156733b75bfce2d3eeea5a3ce34d527e4145078d5e7ee5c81",
+        "md5": "18cda7a0520649016811da7eacdfab3b",
+        "publishedAt": "2024-07-29T16:32:18Z",
+        "tagName": "4.5.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x86",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.5.1.b332/mirthconnect-4.5.1.b332-windows-x32.zip",
+        "sha256": "ea6a8ffbcaf1ee9860bd316a1a7e577d1e299b5e6819cf2fd3971c544c1d0d10",
+        "md5": "d79f8b346b0833613d2ac8deb1fe88cd",
+        "publishedAt": "2024-07-29T16:32:18Z",
+        "tagName": "4.5.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.5.1.b332/mirthconnect-4.5.1.b332-windows-x64.exe",
+        "sha256": "09d6f4d42e3aab5b32a0ac6112f504dca5f0cf18f6eadaa375d1d3425ef1c13d",
+        "md5": "4dc7b6a60ce98c4879987375b87d9c12",
+        "publishedAt": "2024-07-29T16:32:18Z",
+        "tagName": "4.5.1"
+    },
+    {
+        "os": "windows",
+        "arch": "x64",
+        "downloadType": "zip",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.5.1.b332/mirthconnect-4.5.1.b332-windows-x64.zip",
+        "sha256": "d026ab30759ad05b21f8171f7e5a99d1d2889a5cee1449bff2be8db1d2adc567",
+        "md5": "4085910d680ed7826ea3f0fa7dc759cd",
+        "publishedAt": "2024-07-29T16:32:18Z",
+        "tagName": "4.5.1"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "rpm",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.5.1.b332/mirthconnect-4.5.1.b332-linux.rpm",
+        "sha256": "580d5bbe7c6b0f1702811273fadb0557983a0f952b8b76e4faf994bf43bd4787",
+        "md5": "a0ffc2da5cfdef3067502e47d8510374",
+        "publishedAt": "2024-07-29T16:32:18Z",
+        "tagName": "4.5.1"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.5.1.b332/mirthconnect-4.5.1.b332-unix.tar.gz",
+        "sha256": "aa193fb8fa284ba35cd7bd420e041d4c049b8f39420b853ae0c87635bcfcdec6",
+        "md5": "9102ba7bc1ef9fb32067eb890524da84",
+        "publishedAt": "2024-07-29T16:32:18Z",
+        "tagName": "4.5.1"
+    },
+    {
+        "os": "linux",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.5.1.b332/mirthconnect-4.5.1.b332-unix.sh",
+        "sha256": "1e1e83be09d57c14b1ffcff1f4f3645a2f1d15f67e6a3b26565748f4d5568ea1",
+        "md5": "fee27398984f613f884c285b26c9c0e3",
+        "publishedAt": "2024-07-29T16:32:18Z",
+        "tagName": "4.5.1"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "installer",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.5.1.b332/mirthconnect-4.5.1.b332-macos.dmg",
+        "sha256": "92c51ae9ee32de443f1c982d78206195097cd8d54974afa36c5060955f0dbe1a",
+        "md5": "f704338c6fdd0b98b7391bfa1e1ad938",
+        "publishedAt": "2024-07-29T16:32:18Z",
+        "tagName": "4.5.1"
+    },
+    {
+        "os": "mac os x",
+        "arch": "x64",
+        "downloadType": "tar.gz",
+        "downloadUrl": "https://s3.amazonaws.com/downloads.mirthcorp.com/connect/4.5.1.b332/mirthconnect-4.5.1.b332-unix.tar.gz",
+        "sha256": "aa193fb8fa284ba35cd7bd420e041d4c049b8f39420b853ae0c87635bcfcdec6",
+        "md5": "9102ba7bc1ef9fb32067eb890524da84",
+        "publishedAt": "2024-07-29T16:32:18Z",
+        "tagName": "4.5.1"
     }
 ]
